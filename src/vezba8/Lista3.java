@@ -10,7 +10,7 @@ public class Lista3 {
 			list.add("mail"+ (i+5) + "yahoo.com");
 		}
 		
-		for (int i=0; i<=20; i++) {
+		for (int i=0; i<list.size(); i++) {
 			System.out.println(list.get(i));
 		}
 	}
